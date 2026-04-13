@@ -1,8 +1,5 @@
-@app.post("/activities/{activity_name}/signup")
-def signup_for_activity(activity_name: str, email: str):
-    # ...
-    activity["participants"].append(email)
-    return {"message": f"Signed up {email} for {activity_name}"}"""
+
+"""
 High School Management System API
 
 A super simple FastAPI application that allows students to view and sign up
